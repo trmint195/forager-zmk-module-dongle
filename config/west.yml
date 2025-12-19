@@ -4,8 +4,9 @@ manifest:
       url-base: https://github.com/zmkfirmware
     - name: caksoylar
       url-base: https://github.com/caksoylar
-    - name: trmint195
-      url-base: https://github.com/trmint195
+    - name: kien242
+      url-base: https://github.com/kien242
+  projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
@@ -14,7 +15,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: prospector-zmk-module
-      remote: trmint195
+      remote: kien242
       revision: core/zephyr-4-1
   self:
     path: config
