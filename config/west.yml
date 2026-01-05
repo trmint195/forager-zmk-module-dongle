@@ -17,5 +17,8 @@ manifest:
     - name: prospector-zmk-module
       remote: trmint195
       revision: core/zephyr-4-1
+    - name: zmk-dongle-screen
+      remote: trmint195
+      revision: main
   self:
     path: config
