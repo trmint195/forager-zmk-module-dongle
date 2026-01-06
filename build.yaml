@@ -32,3 +32,5 @@ include:
     shield: forager_right rgbled_adapter
   - board: nice_nano@2.0.0
     shield: settings_reset
+  - board: xiao_ble
+    shield: settings_reset
