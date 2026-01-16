@@ -21,8 +21,7 @@ include:
   - board: nice_nano@2.0.0
     shield: forager_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
-    cmake-args: -DCONFIG_PROSPECTOR_LIGHT_SENSOR_BH1750=y
-    artifact-name: forager_dongle_dongle_screen_zmk_studio_nice_nano
+    artifact-name: forager_dongle_prospector_adapter_zmk_studio_nice_nano
   - board: nice_nano@2.0.0
     shield: forager_left 
   - board: nice_nano@2.0.0
