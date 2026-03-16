@@ -16,7 +16,7 @@ manifest:
       revision: main
     - name: prospector-zmk-module
       remote: trmint195
-      revision: core/zephyr-4-1
+      revision: feat/new-status-screens
     - name: zmk-dongle-screen
       remote: trmint195
       revision: main
