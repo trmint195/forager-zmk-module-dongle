@@ -17,8 +17,5 @@ manifest:
     - name: prospector-zmk-module
       remote: trmint195
       revision: feat/new-status-screens
-    - name: zmk-dongle-screen
-      remote: trmint195
-      revision: main
   self:
     path: config
