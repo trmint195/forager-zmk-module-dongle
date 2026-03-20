@@ -19,13 +19,13 @@
 
 ---
 include:
-  - board: nice_nano@2.0.0
+  - board: xiao_ble//zmk
     shield: forager_dongle prospector_adapter
     snippet: studio-rpc-usb-uart
     artifact-name: forager_dongle_prospector_adapter_zmk_studio_nice_nano
-  - board: nice_nano@2.0.0
+  - board: xiao_ble//zmk
     shield: forager_left 
-  - board: nice_nano@2.0.0
+  - board: xiao_ble//zmk
     shield: forager_right 
   - board: nice_nano@2.0.0
     shield: settings_reset
