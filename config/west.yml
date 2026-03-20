@@ -17,7 +17,7 @@ manifest:
       remote: caksoylar
       revision: main
     - name: prospector-zmk-module
-      remote: carrefinho
+      remote: trmint195
       revision: feat/new-status-screens
   self:
     path: config
