@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/trmint195/
     - name: carrefinho
       url-base: https://github.com/carrefinho
-    - name: kien242
-      url-base: https://github.com/kien242
+    - name: prospector
+      url-base: https://github.com/t-ogura
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -18,9 +18,9 @@ manifest:
     - name: zmk-rgbled-widget
       remote: caksoylar
       revision: main
-    - name: prospector-scanner-zmk-module
-      remote: kien242
-      revision: feature/v2.1.0-touch-mode
-      path: modules/prospector-scanner-zmk-module
+    - name: prospector-zmk-module
+      remote: prospector
+      revision: v2.2.1
+      path: modules/prospector-zmk-module
   self:
     path: config

@@ -19,10 +19,10 @@
 
 ---
 include:
-  - board: xiao_ble//zmk
-    shield: forager_dongle prospector_scanner
-    snippet: studio-rpc-usb-uart
-    artifact-name: forager_dongle_prospector_scanner_zmk_studio_nice_nano
+  - board: xiao_ble/nrf52840/zmk
+    shield: prospector_scanner
+    cmake-args: -DEXTRA_CONF_FILE=../../config/prospector_scanner_touch.conf
+    artifact-name: prospector_scanner_touch
   - board: xiao_ble//zmk
     shield: forager_left 
   - board: xiao_ble//zmk
